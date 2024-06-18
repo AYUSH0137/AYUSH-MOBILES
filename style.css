@@ -1,0 +1,160 @@
+div.main-body{
+    display: grid;
+    grid-template-columns: minmax(300px, auto)1fr;
+    grid-template-areas: "navbar mainContent";
+    grid-gap: 20px;
+}
+
+div.main-doc{
+    grid-area: mainContent;
+
+}
+header{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* .title{ 
+    display: block;
+    text-align: center;
+    font-size: 2.5vw;
+    background-color: #C5D7E8;
+    background-size: cover;
+    box-shadow: 5px 5px#E2DBCB;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}*/
+
+nav#navbar{
+display: block;
+    background-color: #C5D7E8;
+    text-align: left;
+    border-radius: 10px;
+    position: fixed;
+}
+
+/*.navbar li{
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-right: 35px;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    font-weight: bolder;
+}*/
+
+nav#navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+
+nav#navbar {
+    display: block;
+    background-color:#C5D7E8;
+    color: black;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: auto;
+    height: auto;
+}
+
+
+.options{
+    margin-left: 40%;
+    background-color: #E6E0DB;
+    padding: 15px;
+    box-shadow: 15px 15px#E2DBCB;
+    border-radius: 15px;
+
+}
+
+.options h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+.options p1{
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+.options img{
+    border-radius: 15px;
+    background-color: #E2DBCB;
+    padding: 15px;
+    box-shadow: 8px 8px rgb(48, 165, 153);
+}
+
+
+.section1 img{
+    height: auto;
+    width: auto;
+    margin: auto;
+    display: block;
+    align-content: center;
+
+}
+
+.section2 img{
+    text-align: center;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: auto;
+
+}
+
+.section3 img{
+    text-align: center;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+.section4 img{
+    text-align: center;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+.section5 img{
+    text-align: center;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: auto;
+
+}
+
+.section6 img{
+    text-align: center;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: auto;
+
+}
+
+.section7 img{
+    text-align: center;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: auto;
+
+}
+.section8 img{
+    text-align: center;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: auto;
+}
